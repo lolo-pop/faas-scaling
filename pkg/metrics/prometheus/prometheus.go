@@ -8,9 +8,9 @@ import (
 	"os"
 	"time"
 
+	"github.com/lolo-pop/faas-scaling/pkg/util"
 	"github.com/prometheus/client_golang/api"
 	v1 "github.com/prometheus/client_golang/api/prometheus/v1"
-	"github.com/smvfal/faas-monitor/pkg/util"
 )
 
 var v1api v1.API
